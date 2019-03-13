@@ -39,7 +39,7 @@ client.connect(broker_ip, broker_port_no, 60)
 
 
 def client_loop():
-    client.loop_start()
+    client.loop_forever()
 
 
 def chat_control():
